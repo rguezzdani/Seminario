@@ -1,0 +1,93 @@
+<head>
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/d3plus/1.9.2/d3plus.full.min.js"></script>
+</head>
+
+<body>
+
+	<header>
+  Autor: Daniel Rodríguez Martín
+  <br>
+  Url Stackblitz: <a href= "https://js-qhnptr.stackblitz.io"> https://js-qhnptr.stackblitz.io</a>
+  <br>
+  Fuente: <a href="https://www.kaggle.com/gregorut/videogamesales#vgsales.csv"> https://www.kaggle.com/gregorut/videogamesales#vgsales.csv</a> 
+  <br>
+  Fecha: 10/04/2020
+</header>
+
+
+<div class = "titulos centrar">
+  
+  <h1>Objetivo</h1>
+  <p>El objetivo principal de este proyecto es crear una serie de visualizaciones sobre un dataset extraído de Kaggle en el cual se aprecian las ventas de videojuegos hasta el año 2017 y con las cuales intentaremos sacar algo de conocimiento de ellas.</p>
+
+
+
+  <h2>Ventas por Género</h2>
+  <a href="https://github.com/rguezzdani/Visualizacion---Actividades-guiadas/blob/master/Seminario_VentasVideojuegos.ipynb">Enlace a GoogleColab</a>
+  <br>
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/HxDJk5T/Ventas-por-G-nero.png" alt="Ventas-por-G-nero" border="0"></a>
+  <la>
+    <li>Podemos ver como América del Norte se decanta por VideoJuegos de acción, deportes y de guerra en mayor medida.</li>
+    <li>En la Unión Europea también predominan las ventas de estos géneros de videojuegos.</li>
+    <li>En Japón hay una gran diferencia en la venta de juegos de rol frente a los demás géneros de videojuegos.</li>
+  </la>
+  <p>Como conclusión de este gráfico podemos apreciar que en América del Norte se juega más o igual que en el resto del mundo.</p>
+
+  <h2>Evolución de las ventas globales de videojuegos de las consolas más conocidas </h2>
+  
+  <div class='tableauPlaceholder' id='viz1586606776559' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;Seminario_Grfico_EvolucionVentasCompaia&#47;Evolucindeventasdelasconsolasmsconocidasenelmundo&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Seminario_Grfico_EvolucionVentasCompaia&#47;Evolucindeventasdelasconsolasmsconocidasenelmundo' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;Seminario_Grfico_EvolucionVentasCompaia&#47;Evolucindeventasdelasconsolasmsconocidasenelmundo&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1586606776559');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> 
+
+
+  <br>
+  <p>En este gráfico podemos ver la evolución de venta de videojuegos para las consolas más conocidas en el mundo. Por ejemplo, se puede destacar que la venta de videojuegos para los PC'S se ha mantenido constante desde 1985 hasta ahora, habiendo un repunte de ventas en el año 2011, seguramente coincidiendo con el estreno de algún videojuego en particular. También es interesante ver las ventas de videojuegos para las distintas versiones de Play Station (PS, PS2, PS3, PS4). Es interesante como tras la salida de una nueva Play Station, las ventas de videojuegos de la anterior versión se desploman pero se tarda una media de 3-4 años hasta que las ventas de dicha versión anterior tiende a 0. 
+  <br>
+
+  <h2>Comparación de la venta de ciertos videojuegos en la Unión Europea, América del Norte y Japón</h2>
+
+  <div class='tableauPlaceholder' id='viz1586610176182' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;Seminario_Dashboard2&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Seminario_Dashboard2&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;Seminario_Dashboard2&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1586610176182');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1277px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+  <br>
+  <la>
+    <li><b>Unión Europea vs Japón: </b>Se puede destacar como el videojuego más vendido en Japón tiene unas ventas medias en Europa y el videojuego más vendido en Europa tiene unas ventas más bien escasas en Japón. También es destacable que los videojuegos más vendidos en Europa predominan del Género deportes y en Japón predominan los juegos de rol tal y como comentábamos anteriormente.</li>
+    <li><b>Unión Europea vs América del Norte: </b>Se puede apreciar como el Wii Sports es el videojuego más vendido tanto en América del Norte como en Europa.</li>
+  </la>
+
+
+  <div class='tableauPlaceholder' id='viz1586612680555' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;Seminario_Dashboard3&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Seminario_Dashboard3&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;Seminario_Dashboard3&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1586612680555');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  
+  <br>
+
+  <la>
+    <li><b>Japón vs América del Norte: </b>Algo que es de destacar es que el Super Mario Bros (segundo videojuego más vendido en Japón y tercer videojuego más vendido en América del Norte) tiene una diferencia de ventas entre ambos de 25 millones aproximadamente. De esta forma podemos volver a observar la gran diferencia entre Japón y América del Norte a la hora de jugar a videojuegos.</li>
+  </la>
+
+  <br>
+
+  <h2>Top 3 Uso de consolas de la Unión Europea, Japón, América del Norte y el resto del mundo en los últimos 3 años del dataset (2017, 2016, 2015)</h2>
+  <a href="https://github.com/rguezzdani/Visualizacion---Actividades-guiadas/blob/master/Seminario_VentasVideojuegos.ipynb">Enlace a GoogleColab</a>
+  <br><br>
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/Zfv646p/europa.png" alt="europa" border="0"></a>
+
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/kQx4Czy/america.png" alt="america" border="0"></a>
+
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/8NXxXdc/japon.png" alt="japon" border="0"></a>
+
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/gmJ7f2p/restomundo.png" alt="restomundo" border="0"></a>
+
+
+  <la>
+    <li>Como vemos, la Nintendo 3DS tiene bastante más protagonismo en los habitantes de Japón frente al resto de consolas. Sin embargo, la PS4 está en cabeza y la XOne en segundo lugar tanto en la Unión Europea, América del Norte y el Resto del Mundo.</li>
+    <li>También un dato muy curioso es que a pesar de que la PS4 entró al mercado en 2013, entre los años 2015, 2016 y 2017 sigue siendo la TOP 3 en ventas de videojuegos en Europa y el resto del mundo.</li>
+  </la>
+
+
+</div>
+
+
+
+
+
+</body>
+

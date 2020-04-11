@@ -1,0 +1,34 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+header {
+  background-color: rgb(86, 86, 209);
+  text-align: center;
+  color:white;
+  font-size: 30px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+header a{
+  color:white;
+}
+
+a:hover{
+  color:maroon;
+}
+
+div h1{
+  font-size:30px;
+}
+
+.centrar{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body{
+  font-family: cambria;
+  text-align:justify;
+}
